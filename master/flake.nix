@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-serial-master.flake = false;
+  inputs.src-serial-master.ref   = "refs/heads/master";
   inputs.src-serial-master.owner = "euantorano";
-  inputs.src-serial-master.ref   = "master";
   inputs.src-serial-master.repo  = "serial.nim";
   inputs.src-serial-master.type  = "github";
   
