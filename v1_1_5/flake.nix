@@ -1,5 +1,5 @@
 {
-  description = ''A library to operate serial ports using pure Nim.'';
+  description = ''SerialPort library for Nim.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-serial-v1_1_5.flake = false;
   inputs.src-serial-v1_1_5.owner = "euantorano";
-  inputs.src-serial-v1_1_5.ref   = "refs/tags/v1.1.5";
+  inputs.src-serial-v1_1_5.ref   = "v1_1_5";
   inputs.src-serial-v1_1_5.repo  = "serial.nim";
   inputs.src-serial-v1_1_5.type  = "github";
   
